@@ -12,7 +12,7 @@ eureka:
     lease-expiration-duration-in-seconds: 10
   client:
     service-url:
-      defaultZone: http://admin:admin123@127.0.0.1:8761/eureka
+      defaultZone: http://admin:admin123@127.0.0.1:38000/eureka
 
 zuul:
   add-host-header: true
