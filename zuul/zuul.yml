@@ -5,6 +5,9 @@
 #        #启动负载均衡的重试机制，默认false
 #        enabled: true
 
+echo:
+  account: abnc
+
 eureka:
   instance:
     hostname: 127.0.0.1
